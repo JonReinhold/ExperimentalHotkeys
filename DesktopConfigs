@@ -1,0 +1,9 @@
+SetCapsLockState, AlwaysOff
+return 
+
+
+;pasting in terminal
+#IfWinActive ahk_class ConsoleWindowClass
+^V::
+SendInput {Raw}%clipboard%
+return

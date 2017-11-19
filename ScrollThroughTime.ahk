@@ -1,3 +1,3 @@
-WheelUp::
+WheelDown::
 Send {u}
 return

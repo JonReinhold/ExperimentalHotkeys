@@ -1,8 +1,8 @@
+;if capslock isn't rebound to something else already 
 SetCapsLockState, AlwaysOff
 return 
 
-
-;pasting in terminal
+;pasting in terminal older windows versions 
 #IfWinActive ahk_class ConsoleWindowClass
 ^V::
 SendInput {Raw}%clipboard%

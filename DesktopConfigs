@@ -1,6 +1,7 @@
 ;if capslock isn't rebound to something else already 
 SetCapsLockState, AlwaysOff
 return 
+
 ;use capslock as Enter
 Capslock::
 Send {enter}

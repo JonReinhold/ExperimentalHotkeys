@@ -2,6 +2,9 @@
 SetCapsLockState, AlwaysOff
 return 
 
+Capslock::
+Send {enter}
+return
 
 ;pasting in terminal older windows versions 
 #IfWinActive ahk_class ConsoleWindowClass

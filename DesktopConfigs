@@ -1,11 +1,11 @@
-;if capslock isn't rebound to something else already 
-SetCapsLockState, AlwaysOff
-return 
-
 ;use capslock as Enter
 Capslock::
 Send {enter}
 return
+
+;if capslock isn't rebound to something else already 
+SetCapsLockState, AlwaysOff
+return 
 
 ;pasting in terminal older windows versions 
 #IfWinActive ahk_class ConsoleWindowClass
